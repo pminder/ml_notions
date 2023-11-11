@@ -19,10 +19,10 @@ vis-à-vis de la classe définie comme positive.
 Supposons un ensemble de 10 instances avec 8 de la classe A et 2 de la classe B. 
 Considérons que les résultats de prédiction sont les suivants :
 
-- TP (classe A) : 5
-- FN (classe A) : 3
-- TN (classe B) : 1
-- FP (classe A) : 1
+- True Positives : 5
+- False Negatives : 8 - 5 = 3
+- True Negatives : 1
+- False Positives : 2 - 1 = 1
 
 Calcul du score F1 si l'on considère la classe A comme positive :
 - Précision = 5 / 6 ≈ 0.83
